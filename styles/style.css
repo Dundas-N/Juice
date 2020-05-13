@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  background-color: #EEBA13;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 9vh;
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+  padding: 20px;
+}
+
+nav a {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  padding-bottom: 10px;
+  background-image: url(/img/underline.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+
+nav .nav-left .logo {
+  margin-left: 140px;
+  font-size: 27px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+nav .nav-right {
+  position: relative;
+  float: right;
+  margin-right: 140px;
+  text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+nav .nav-right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .nav-right ul li {
+  padding: 0 10px 5px 10px;
+  margin-left: 73px;
+}
+
+nav .nav-right i {
+  font-size: 21px;
+  cursor: pointer;
+}
+
+nav .nav-right i:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+nav .nav-menu-mobile {
+  display: none;
+}
+
+nav .nav-menu-mobile label {
+  display: none;
+}
+
+nav .nav-menu-mobile #toggle {
+  display: none;
+}
+
+nav .nav-menu-mobile .cart-icon {
+  display: none;
+}
+
+.wrapper {
+  padding: 20px;
+  margin: 0 auto;
+  height: 91vh;
+}
+
+.container-left img {
+  width: 385px;
+  margin-left: 200px;
+  -webkit-transform: rotate(-1deg);
+          transform: rotate(-1deg);
+  cursor: pointer;
+}
+
+.container-right {
+  float: right;
+  width: 470px;
+  height: 320px;
+  padding-bottom: 0px;
+  margin-right: 150px;
+  margin-top: 150px;
+}
+
+.container-right h1 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #FFFFFF;
+  margin-right: 0;
+  padding-right: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 23px;
+}
+
+.container-right p {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: "Montserrat";
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: lighter;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.container-right .container-btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.container-right .container-btn .shopNow {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 26px;
+  padding: 14px 46px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: bold;
+  color: #EEBA13;
+  cursor: pointer;
+}
+
+.container-right .container-btn .shopNow:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.container-right .container-btn .learnMore {
+  margin-left: 30px;
+  border: solid 2px #FFFFFF;
+  background-color: #EEBA13;
+  border-radius: 26px;
+  padding: 14px 46px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.container-right .container-btn .learnMore:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media only screen and (max-width: 640px) {
+  nav .nav-menu-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  nav .nav-menu-mobile ul {
+    display: none;
+  }
+  nav .nav-menu-mobile label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #FFFFFF;
+    font-size: 25px;
+    padding: 20px;
+    position: absolute;
+    top: 10px;
+    left: 12px;
+  }
+  nav .nav-menu-mobile .cart-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 21px;
+    padding: 20px;
+    position: absolute;
+    top: 20px;
+    right: 12px;
+  }
+  nav .nav-left .logo {
+    padding: 10px;
+    text-align: center;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    font-size: 25px;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    top: 25px;
+  }
+  nav {
+    height: 99px;
+    width: 100%;
+    margin: auto;
+    border-bottom: solid 2px rgba(128, 128, 128, 0.1);
+  }
+  .nav-right {
+    display: none;
+  }
+  .wrapper {
+    position: relative;
+    height: auto;
+  }
+  .wrapper .container-left img {
+    width: 200px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .wrapper .container-right {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 359px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+  }
+  .wrapper .container-right h1 {
+    font-size: 36px;
+    letter-spacing: 8px;
+    text-transform: none;
+  }
+  .wrapper .container-right p {
+    margin: 19px 40px 17px 40px;
+    text-align: center;
+    line-height: 23px;
+  }
+  .wrapper .container-right .container-btn {
+    display: block;
+  }
+  .wrapper .container-right .container-btn .shopNow {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border-radius: 0;
+    border-bottom: solid #FFFFFF 2px;
+    padding: 0;
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+  .wrapper .container-right .container-btn .learnMore {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 999px) {
+  nav .nav-menu-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  nav .nav-menu-mobile ul {
+    display: none;
+  }
+  nav .nav-menu-mobile label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #FFFFFF;
+    font-size: 25px;
+    padding: 20px;
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    margin-left: 0px;
+  }
+  nav .nav-menu-mobile .cart-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 21px;
+    padding: 20px;
+    position: absolute;
+    top: 20px;
+    right: 12px;
+    margin-right: 0px;
+  }
+  nav .nav-left .logo {
+    padding: 10px;
+    text-align: center;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    font-size: 25px;
+    margin-left: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25px;
+  }
+  nav {
+    height: 99px;
+    width: 100%;
+    margin: auto;
+    border-bottom: solid 2px rgba(128, 128, 128, 0.1);
+  }
+  .nav-right {
+    display: none;
+  }
+  .wrapper {
+    position: relative;
+    width: 641px;
+    height: auto;
+  }
+  .wrapper .container-left img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 300px;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    margin-left: auto;
+  }
+  .wrapper .container-right {
+    display: block;
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 200px;
+    margin-top: 0px;
+    margin-right: 12px;
+    left: 325px;
+  }
+  .wrapper .container-right h1 {
+    font-size: 40px;
+    letter-spacing: 10px;
+    display: block;
+    text-transform: uppercase;
+  }
+  .wrapper .container-right p {
+    margin-bottom: 22px;
+    margin-top: 24px;
+    margin-right: 40px;
+    text-align: left;
+  }
+  .wrapper .container-right .container-btn {
+    display: block;
+  }
+  .wrapper .container-right .container-btn .shopNow {
+    padding: 8px 24px;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    border: solid 2px #FFFFFF;
+  }
+  .wrapper .container-right .container-btn .learnMore {
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 8px 24px;
+    background-color: #EEBA13;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  nav {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  nav .nav-left .logo {
+    margin-left: 110px;
+    position: relative;
+    left: 0px;
+    top: -8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  nav .nav-right {
+    margin-right: 40px;
+  }
+  .wrapper {
+    width: 1000px;
+  }
+  .container-left img {
+    margin-top: 40px;
+    margin-left: 8px;
+  }
+  .container-right {
+    margin-right: 40px;
+    margin-top: 190px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
