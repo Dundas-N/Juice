@@ -190,7 +190,7 @@ nav{
         label{
             display: flex;
             color:$textColor;
-            font-size: 25px;
+            font-size: 30px;
             padding: 20px;
             position: absolute;
             top:10px;
@@ -201,7 +201,7 @@ nav{
 
         .cart-icon{
             display: flex;
-            font-size: 21px;
+            font-size: 25px;
             padding: 20px;
             // outline: solid red 2px;  
             position: absolute;
@@ -286,6 +286,7 @@ nav{
 
         .container-btn{
             display: block;
+            margin-bottom: 40px;
             .shopNow{
                 background-color:transparent;
                 box-shadow: none;
@@ -314,7 +315,7 @@ nav{
         label{
             display: flex;
             color:$textColor;
-            font-size: 25px;
+            font-size: 30px;
             padding: 20px;
             position: absolute;
             top:10px;
@@ -324,7 +325,7 @@ nav{
 
         .cart-icon{
             display: flex;
-            font-size: 21px;
+            font-size: 25px;
             padding: 20px;
             position: absolute;
             top:20px;
@@ -407,12 +408,14 @@ nav{
                 font-size: 16px;
                 background-color:$textColor;
                 border: solid 2px $textColor;
+                transform: none;
             }
             .learnMore{
                 margin-left: 10px;
                 border-radius: 20px;
                 padding: 8px 24px;   
                 background-color: $geel;
+                transform: none;
             }
         }
     }

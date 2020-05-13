@@ -202,7 +202,7 @@ nav .nav-menu-mobile .cart-icon {
     display: -ms-flexbox;
     display: flex;
     color: #FFFFFF;
-    font-size: 25px;
+    font-size: 30px;
     padding: 20px;
     position: absolute;
     top: 10px;
@@ -212,7 +212,7 @@ nav .nav-menu-mobile .cart-icon {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    font-size: 21px;
+    font-size: 25px;
     padding: 20px;
     position: absolute;
     top: 20px;
@@ -271,6 +271,7 @@ nav .nav-menu-mobile .cart-icon {
   }
   .wrapper .container-right .container-btn {
     display: block;
+    margin-bottom: 40px;
   }
   .wrapper .container-right .container-btn .shopNow {
     background-color: transparent;
@@ -301,7 +302,7 @@ nav .nav-menu-mobile .cart-icon {
     display: -ms-flexbox;
     display: flex;
     color: #FFFFFF;
-    font-size: 25px;
+    font-size: 30px;
     padding: 20px;
     position: absolute;
     top: 10px;
@@ -312,7 +313,7 @@ nav .nav-menu-mobile .cart-icon {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    font-size: 21px;
+    font-size: 25px;
     padding: 20px;
     position: absolute;
     top: 20px;
@@ -385,12 +386,16 @@ nav .nav-menu-mobile .cart-icon {
     font-size: 16px;
     background-color: #FFFFFF;
     border: solid 2px #FFFFFF;
+    -webkit-transform: none;
+            transform: none;
   }
   .wrapper .container-right .container-btn .learnMore {
     margin-left: 10px;
     border-radius: 20px;
     padding: 8px 24px;
     background-color: #EEBA13;
+    -webkit-transform: none;
+            transform: none;
   }
 }
 
